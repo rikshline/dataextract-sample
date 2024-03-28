@@ -1,0 +1,77 @@
+{
+    "name": "dataextract-sample",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@ant-design/icons": "4.8.0",
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^27.5.2",
+        "@types/node": "^16.18.91",
+        "@types/react": "^18.2.73",
+        "@types/react-dom": "^18.2.23",
+        "@types/react-redux": "7.1.24",
+        "@types/react-router-dom": "5.3.2",
+        "antd": "4.24.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "5.0.1",
+        "redux-persist": "^6.0.0",
+        "@reduxjs/toolkit": "^1.5.1",
+        "rxjs": "6.5.5",
+        "typescript": "^4.9.5",
+        "web-vitals": "^2.1.4",
+        "react-icons": "^5.0.1",
+        "react-redux": "8.0.2",
+        "react-router": "6.14.1",
+        "react-router-dom": "6.14.1",
+        "react-router-prompt": "0.5.4"
+    },
+    "devDependencies": {
+        "@craco/craco": "7.0.0",
+        "@graphql-codegen/add": "3.2.3",
+        "@graphql-codegen/cli": "2.16.2",
+        "@graphql-codegen/client-preset": "2.1.1",
+        "@graphql-codegen/fragment-matcher": "3.3.3",
+        "@graphql-codegen/introspection": "4.0.0",
+        "@graphql-codegen/near-operation-file-preset": "2.4.4",
+        "@graphql-codegen/schema-ast": "2.6.1",
+        "@graphql-codegen/typescript-apollo-client-helpers": "2.2.6",
+        "@graphql-codegen/typescript-operations": "4.0.1",
+        "@graphql-codegen/typescript-react-apollo": "3.3.7",
+        "@rtk-query/codegen-openapi": "^1.2.0",
+        "@types/html-to-draftjs": "^1.4.3",
+        "@types/webscopeio__react-textarea-autocomplete": "^4.7.5",
+        "craco-less": "2.1.0-alpha.0",
+        "eslint-config-prettier": "7.1.0",
+        "eslint-plugin-prettier": "3.3.1",
+        "prettier": "^2.7.1",
+        "serve": "11.3.2",
+        "typescript": "^4.9.5"
+    },
+    "scripts": {
+        "start": "SET PORT=2000 & react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
